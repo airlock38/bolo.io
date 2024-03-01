@@ -1,0 +1,10 @@
+body {
+    background-image: url('./papel-de-parede-adesivo-madeira-classica-clara-2.jpg');
+    background-size: cover;
+    background-color: #f8f8f8; /* cor de fundo */
+}
+
+.bolo{
+    margin: 3.5%;
+    left: 10px;
+}
