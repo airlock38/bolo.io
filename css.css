@@ -1,10 +1,47 @@
 body {
     background-image: url('./papel-de-parede-adesivo-madeira-classica-clara-2.jpg');
     background-size: cover;
-    background-color: #f8f8f8; /* cor de fundo */
+    background-color: #f8f8f8;
 }
 
-.bolo{
-    margin: 3.5%;
-    left: 10px;
+.bolo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    vertical-align: center;
+    margin-top: 70px;
+    left: 20px;
+}
+
+.receita {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 48px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    animation: changeColor 5s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    25% {
+        color: rgb(0, 255, 0);
+    }
+
+    50% {
+        color: rgb(0, 0, 255);
+    }
+
+    75% {
+        color: rgb(255, 255, 0);
+    }
+
+    100% {
+        color: rgb(255, 0, 0);
+    }
 }
